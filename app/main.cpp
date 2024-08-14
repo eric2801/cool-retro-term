@@ -58,6 +58,7 @@ int main(int argc, char *argv[])
         cout << "  -p|--profile <prof> Run cool-retro-term with the given profile." << '\n';
         cout << "  -h|--help           Print this help." << '\n';
         cout << "  --verbose           Print additional information such as profiles and settings." << '\n';
+        cout << "  -v|--version        Print the program name and version." << '\n';
         return 0;
     }
 

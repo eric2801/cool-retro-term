@@ -82,11 +82,15 @@ Window {
                         nameSelected(name)
                         close()
                     }
+                    nameField.forceActiveFocus()
                 }
             }
             Button {
                 text: qsTr("Cancel")
-                onClicked: close()
+                onClicked: function() {
+                    nameField.forceActiveFocus()
+                    close()
+                }
             }
         }
     }
